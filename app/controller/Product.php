@@ -43,7 +43,7 @@ class Product {
         $sql = "INSERT INTO Barang(NamaBarang, Keterangan, Satuan, IdPengguna) VALUES ('" . $name . "','" . $desc . "','" . $satuan . "','" . $userID . "');";
         $result = $this->db->query($sql);
 
-        header("location: /product");
+        header("location: ./product");
     }
 
     function updateProductPage(): void {
@@ -63,7 +63,7 @@ class Product {
         $sql = "UPDATE Barang SET NamaBarang='" . $name . "', Keterangan='" . $desc . "', Satuan='" . $satuan . "' WHERE IdBarang='" . $productId . "';";
         $result = $this->db->query($sql);
 
-        header("location: /product");
+        header("location: ./product");
     }
 
     function deleteProduct(): void {
@@ -72,7 +72,7 @@ class Product {
         $sql = "UPDATE Barang SET mark='remove' WHERE IdBarang='" . $productId . "';";
         $result = $this->db->query($sql);
 
-        header("location: /product");
+        header("location: ./product");
     }
 
 }

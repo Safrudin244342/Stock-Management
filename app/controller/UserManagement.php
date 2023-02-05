@@ -37,7 +37,7 @@ class UserManagement {
             setcookie("userID", $row["IdPengguna"], time() + (86400 * 30), "/");
             setcookie("userRole", $row["NamaAkses"], time() + (86400 * 30), "/");
             setcookie("userLogin", true, time() + (86400 * 30), "/");
-            header("location: /product");
+            header("location: ./product");
         }else {
             echo "Username or password incorrect";
         }

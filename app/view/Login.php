@@ -101,7 +101,7 @@ body {
 
 <div class="login-page">
   <div class="form">
-    <form action="login" class="login-form" method="POST">
+    <form action="./login" class="login-form" method="POST">
       <input name="tUsername" type="text" placeholder="username"/>
       <input name="tPassword" type="password" placeholder="password"/>
       <button name="bLogin">login</button>

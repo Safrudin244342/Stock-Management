@@ -28,6 +28,7 @@ Class Route {
         }
 
         http_response_code(404);
+        // echo $path;
         echo "Controller not found";
     }
 }

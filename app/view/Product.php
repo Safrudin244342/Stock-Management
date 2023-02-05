@@ -18,5 +18,5 @@
     echo "<br>";
     require preg_replace('#\[/\]{1}#', '/', BASE_PATH . "view/material/table.php");
     echo "<br>";
-    echo "<a href='/addproduct' class='button'>Add Product</a>";
+    echo "<a href='./addproduct' class='button'>Add Product</a>";
 ?>

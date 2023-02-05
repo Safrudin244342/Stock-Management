@@ -57,7 +57,7 @@
         if (isset($tableCommands)) {
             echo "<td>";
             foreach($tableCommands as $command) {
-                echo "<a href='/" . $command . "product?productId=" . $coloum['id'] . "' class='button'>" . $command . "</a>";
+                echo "<a href='./" . $command . "product?productId=" . $coloum['id'] . "' class='button'>" . $command . "</a>";
             }
             echo "</td>";
         }

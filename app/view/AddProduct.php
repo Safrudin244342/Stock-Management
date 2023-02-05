@@ -101,7 +101,7 @@ body {
 
 <div class="login-page">
   <div class="form">
-    <form action="addproduct" class="login-form" method="POST">
+    <form action="./addproduct" class="login-form" method="POST">
       <input name="tName" type="text" placeholder="Nama Barang"/>
       <input name="tDesc" type="text" placeholder="Keterangan"/>
       <input name="tSatuan" type="text" placeholder="Satuan Barang"/>

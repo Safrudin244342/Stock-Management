@@ -53,3 +53,7 @@ Page ini akan menampilkan list transaksi yang sudah dilakukan.
 3. `/laporan`
 
 Page ini akan menampilkan laba rugi dari setiap barang yang terdaftar
+
+4. `/login`
+
+Page ini digunakan untuk login website.

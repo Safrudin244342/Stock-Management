@@ -50,9 +50,9 @@ body {
     foreach($menus as $menu) {
         if (in_array($userRole, $menu['role'])){
             if (strtolower($path) == "/" . strtolower($menu["menu"])){
-                echo "<a class='active' href='/" . $menu["menu"] . "'>" . $menu["menu"] . "</a>";
+                echo "<a class='active' href='./" . $menu["menu"] . "'>" . $menu["menu"] . "</a>";
             } else {
-                echo "<a href='/" . $menu["menu"] . "'>" . $menu["menu"] . "</a>";
+                echo "<a href='./" . $menu["menu"] . "'>" . $menu["menu"] . "</a>";
             }
         }
     }

@@ -101,7 +101,7 @@ body {
 
 <div class="login-page">
   <div class="form">
-    <form action="updateproduct?productId=<?php echo $_GET['productId'] ?>" class="login-form" method="POST">
+    <form action="./updateproduct?productId=<?php echo $_GET['productId'] ?>" class="login-form" method="POST">
       <input name="tName" type="text" placeholder="Nama Barang" value="<?php echo $name ?>" />
       <input name="tDesc" type="text" placeholder="Keterangan" value="<?php echo $desc ?>"/>
       <input name="tSatuan" type="text" placeholder="Satuan Barang" value="<?php echo $satuan ?>"/>

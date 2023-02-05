@@ -4,9 +4,9 @@ class HomePage {
 
     function home(): void {
         if (isset($_COOKIE['userLogin'])) {
-            header("location: /product");
+            header("location: ./product");
         } else {
-            header("location: /login");
+            header("location: ./login");
         }
     }
 
