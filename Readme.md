@@ -15,6 +15,10 @@ $dbName = "shadowCompany";
 ## Jika menggunakan xampp
 1. Disarankan untuk menyimpan di folder dengan nama "idim-team-9"
 2. Untuk mengakses bisa langsung localhost/idim-team-9/public
+3. Jika menggunakan nama folder lain harap edit file `app/app/Route.php` untuk memastikan website tetap berfungsi dengan baik. cth kita akan menyimpan di folder `stockmanagement` kita tinggal mengedit line 18.
+```
+$path = str_replace("/stockmanagement/public","",$path);
+```
 
 ## User yang bisa digunakan untuk login
 1. Admin user
