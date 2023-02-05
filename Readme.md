@@ -20,6 +20,14 @@ $dbName = "shadowCompany";
 $path = str_replace("/stockmanagement/public","",$path);
 ```
 
+## Jika menggunakan nginx
+1. Pastikan untuk melakukan rewrite path dengan config seperti dibawah
+```
+if (!-e $request_filename){
+    rewrite ^(.+)$ /index.php break;
+}
+```
+
 ## User yang bisa digunakan untuk login
 1. Admin user
 ```
